@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1><p>hello...This is filter page...</p></h1>
+    <h5>Upper:{{name|upper}}</h5>
+    <h5>Lower:{{name|lower}}</h5>
+    <h5>Title:{{data|title}}</h5>
+    <h5>Capfirst:{{data|capfirst}}</h5>
+    <h5>truncatewords:{{ data|truncatewords:3 }}</h5>
+    <h5>truncatechars:{{ data|truncatechars:5 }}</h5>
+    <h5>Slice:{{data|slice:3}}</h5>
+    <h5>Length:{{data|length}}</h5>
+    <h5>Th{{c|pluralize:'is,ese'}} {{c}} {{d}}{{c|pluralize:'s'}} {{c|pluralize:'is,are'}} mine</h5>
+    <h5>date:{{date|date:'d M Y'}}</h5>
+
+</center>
+
+
+</body>
+</html>
